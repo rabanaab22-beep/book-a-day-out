@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#102b23">
+<meta name="description" content="A Day Out offers thoughtful companionship for dates, social outings, official dinners, celebrations and weekend experiences. Book discreetly through WhatsApp.">
+<title>A Day Out | Good Company, Memorable Moments</title>
+<style>
+:root{--green:#102b23;--green2:#1c4033;--gold:#d7b56d;--cream:#f7f4ec;--ink:#222820;--muted:#666c64}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--ink);line-height:1.65}
+a{color:inherit}
+header{background:var(--green);color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.logo{font-family:Georgia,serif;font-size:25px;color:var(--gold);letter-spacing:1px}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+nav a{text-decoration:none;font-size:14px}
+nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(115deg,rgba(9,31,24,.96),rgba(17,54,42,.83)),url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85') center/cover;color:white;padding:100px 7%;min-height:440px;display:flex;align-items:center}
+.hero-inner{max-width:720px}
+.eyebrow{text-transform:uppercase;letter-spacing:3px;color:var(--gold);font-size:12px;font-weight:bold}
+h1,h2,h3{font-family:Georgia,'Times New Roman',serif;line-height:1.2}
+h1{font-size:clamp(40px,7vw,68px);margin:16px 0}
+h2{font-size:clamp(28px,4vw,40px);margin-top:0}
+.hero p{font-size:18px;max-width:580px;color:#eceee8}
+.btn{display:inline-block;border:0;border-radius:4px;background:var(--gold);color:#14271e;text-decoration:none;font-weight:bold;padding:13px 22px;cursor:pointer}
+.btn:hover{filter:brightness(1.06)}
+.btn-outline{background:transparent;border:1px solid var(--gold);color:var(--gold);margin-left:8px}
+section{padding:72px 7%}
+.section-intro{max-width:650px;color:var(--muted);margin-top:-8px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:white;padding:25px;border:1px solid #e8e3d8;border-radius:8px}
+.card h3{margin:8px 0;font-size:22px}
+.card p{color:var(--muted);font-size:14px}
+.price{font-size:27px;color:var(--green);font-weight:bold;margin-top:16px}
+.price small{font-size:12px;color:var(--muted);font-weight:normal}
+.icon{font-size:26px}
+.dark{background:var(--green);color:white}
+.dark .section-intro{color:#d0d9d1}
+.dark .card{background:var(--green2);border-color:#345446}
+.dark .card p{color:#d0d9d1}
+.dark .price{color:var(--gold)}
+.note{border-left:3px solid var(--gold);padding:12px 16px;background:rgba(215,181,109,.10);margin-top:24px}
+.booking-wrap{display:grid;grid-template-columns: minmax(0,1fr) minmax(260px,.75fr);gap:35px;align-items:start}
+form{background:white;padding:26px;border-radius:8px;border:1px solid #e5e1d7}
+label{display:block;font-size:13px;font-weight:bold;margin:14px 0 6px}
+input,select,textarea{width:100%;padding:12px;border:1px solid #d7d7cf;border-radius:4px;background:#fff;font:inherit;color:var(--ink)}
+textarea{min-height:100px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);border-color:var(--gold)}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}
+.full{grid-column:1/-1}
+button{font:inherit}
+.form-submit{width:100%;margin-top:20px;font-size:16px}
+.small{font-size:12px;color:var(--muted)}
+.policy{max-width:900px;margin:auto}
+.policy details{background:white;border:1px solid #e5e1d7;border-radius:5px;margin:12px 0;padding:16px 20px}
+.policy summary{font-weight:bold;cursor:pointer}
+.policy p,.policy li{color:#555f56;font-size:14px}
+footer{background:#0a2019;color:#e9eee8;padding:35px 7%;text-align:center}
+footer a{color:var(--gold)}
+footer p{font-size:13px}
+@media(max-width:760px){.booking-wrap{grid-template-columns:1fr}.hero{padding:75px 6%;min-height:390px}section{padding:55px 6%}header{padding:16px 6%}nav{gap:13px}.btn-outline{margin:10px 0 0}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#home" style="text-decoration:none">A Day Out</a>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#booking">Book Now</a>
+    <a href="#policies">Policies</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="eyebrow">Thoughtful companionship</div>
+    <h1>Good company.<br>Memorable moments.</h1>
+    <p>Make your dates, dinners, celebrations and outings more enjoyable with friendly, respectful companionship arranged around your plans.</p>
+    <a class="btn" href="#booking">Make a Booking Enquiry</a>
+    <a class="btn btn-outline" href="#services">Explore Services</a>
+  </div>
+</section>
+
+<section id="about">
+  <div class="eyebrow">Welcome to A Day Out</div>
+  <h2>Enjoy the moment. Feel at ease.</h2>
+  <p class="section-intro">A Day Out offers companionship for people who would appreciate company for social occasions, dining, events and leisure activities. Whether you have a special event or simply want to enjoy an outing with someone, the aim is to make the experience comfortable, respectful and memorable.</p>
+  <div class="grid">
+    <article class="card"><div class="icon">✦</div><h3>Respectful company</h3><p>Clear expectations, good communication and respect for personal boundaries.</p></article>
+    <article class="card"><div class="icon">◇</div><h3>Flexible arrangements</h3><p>Choose a suitable duration and tell us about the occasion you have in mind.</p></article>
+    <article class="card"><div class="icon">♡</div><h3>Privacy-minded service</h3><p>Your booking details are handled with care and are not publicly shared without permission, subject to applicable law.</p></article>
+  </div>
+</section>
+
+<section class="dark" id="services">
+  <div class="eyebrow">What we offer</div>
+  <h2>Choose your experience</h2>
+  <p class="section-intro">From a short daytime outing to an evening dinner or a weekend experience, submit an enquiry and agree on the details in advance.</p>
+  <div class="grid">
+    <article class="card"><div class="icon">☀</div><h3>Full Day</h3><p>Companionship for a day of planned activities, social visits or leisure outings.</p></article>
+    <article class="card"><div class="icon">◷</div><h3>Half Day</h3><p>A shorter arrangement for a date, lunch, an activity or a daytime event.</p></article>
+    <article class="card"><div class="icon">☾</div><h3>Half Night</h3><p>Evening companionship for dinner, celebrations and social events. All meetings must end before midnight.</p></article>
+    <article class="card"><div class="icon">✧</div><h3>Weekend Outing</h3><p>Plan a relaxed outing or social experience over the weekend.</p></article>
+    <article class="card"><div class="icon">♧</div><h3>Multiple Companionship</h3><p>Enquire about arrangements involving more than one companion. Group size and expectations must be agreed beforehand.</p></article>
+    <article class="card"><div class="icon">✈</div><h3>International Booking</h3><p>Bookings outside Ghana are available on special request, subject to advance discussion and approval.</p></article>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="eyebrow">Clear pricing</div>
+  <h2>Our service rates</h2>
+  <p class="section-intro">Prices below are in US dollars. Transportation within the Ashanti Region is included in the listed rates.</p>
+  <div class="grid">
+    <article class="card"><h3>Full Day</h3><p>Daytime companionship</p><div class="price">$70</div></article>
+    <article class="card"><h3>Half Day</h3><p>Shorter daytime booking</p><div class="price">$45</div></article>
+    <article class="card"><h3>Half Night</h3><p>Evening event, ending before midnight</p><div class="price">$95</div></article>
+    <article class="card"><h3>Weekend Outing</h3><p>Weekend companionship</p><div class="price">$85</div></article>
+    <article class="card"><h3>Multiple Companionship</h3><p>Group arrangements, details agreed in advance</p><div class="price">$100</div></article>
+  </div>
+  <div class="note"><strong>Travel outside Ashanti Region:</strong> Additional transport charges may apply. These will be discussed and agreed upon before your booking is confirmed.</div>
+  <div class="note"><strong>Bookings outside Ghana:</strong> Available on special request only. Travel arrangements, accommodation where necessary, transport, service fees and other expenses must be discussed and agreed before confirmation. International rates are not included in the prices above.</div>
+  <p class="small">Please confirm the exact duration, service scope, location and total price before making payment. The listed rates do not automatically include accommodation, tickets, meals or other third-party expenses unless agreed in writing.</p>
+</section>
+
+<section class="dark" id="booking">
+  <div class="eyebrow">Let's plan your outing</div>
+  <h2>Make a booking enquiry</h2>
+  <p class="section-intro">Complete the details below. Your information will be prepared as a WhatsApp message so you can review it and send your enquiry directly.</p>
+  <div class="booking-wrap">
+    <form id="bookingForm">
+      <div class="form-grid">
+        <div>
+          <label for="name">Your name *</label>
+          <input id="name" name="name" autocomplete="name" required>
+        </div>
+        <div>
+          <label for="phone">Your phone / WhatsApp *</label>
+          <input id="phone" name="phone" autocomplete="tel" required>
+        </div>
+        <div>
+          <label for="service">Service *</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option>Full Day — $70</option>
+            <option>Half Day — $45</option>
+            <option>Half Night — $95 (ends before midnight)</option>
+            <option>Weekend Outing — $85</option>
+            <option>Multiple Companionship — $100</option>
+            <option>Outside Ghana — Special Request</option>
+          </select>
+        </div>
+        <div>
+          <label for="date">Preferred date *</label>
+          <input id="date" name="date" type="date" required>
+        </div>
+        <div>
+          <label for="country">Booking location *</label>
+          <select id="country" name="country" required>
+            <option value="">Choose location</option>
+            <option>Within Ashanti Region, Ghana</option>
+            <option>Elsewhere in Ghana</option>
+            <option>Outside Ghana — International Enquiry</option>
+          </select>
+        </div>
+        <div>
+          <label for="group">Number of people / companions</label>
+          <select id="group" name="group">
+            <option>One-to-one companionship</option>
+            <option>Multiple companionship</option>
+            <option>Group event / other arrangement</option>
+          </select>
+        </div>
+        <div class="full">
+          <label for="venue">Preferred venue or city *</label>
+          <input id="venue" name="venue" placeholder="e.g. Kumasi, restaurant or event venue" required>
+        </div>
+        <div class="full">
+          <label for="time">Preferred start and end time *</label>
+          <input id="time" name="time" placeholder="e.g. 2:00 pm – 6:00 pm" required>
+        </div>
+        <div class="full">
+          <label for="details">Occasion and special requests</label>
+          <textarea id="details" name="details" placeholder="Tell us about your plans and any arrangements to discuss. Please do not include sensitive personal information."></textarea>
+        </div>
+      </div>
+      <label style="display:flex;gap:10px;align-items:flex-start;font-weight:normal">
+        <input type="checkbox" id="agree" required style="width:auto;margin-top:5px">
+        <span>I have read the booking terms and privacy notice and understand this is an enquiry, not a confirmed booking.</span>
+      </label>
+      <button class="btn form-submit" type="submit">Continue to WhatsApp</button>
+      <p class="small">Submitting opens WhatsApp with your message prepared. You must review and send the message yourself. A booking is not confirmed until both parties agree on the details.</p>
+    </form>
+    <aside>
+      <h3>Before your booking</h3>
+      <p>Please share accurate booking information and agree on the venue, duration, price and travel arrangements in advance.</p>
+      <div class="note"><strong>Personal safety</strong><br>We do not accept midnight meetings, isolated bush locations, abandoned buildings or venues considered unsafe. Half-night arrangements must end before midnight.</div>
+      <div class="note"><strong>International enquiries</strong><br>Bookings outside Ghana require advance discussion and approval. Do not purchase tickets or make non-refundable arrangements on the assumption that a booking has been confirmed.</div>
+      <p style="margin-top:25px"><strong>Prefer to message directly?</strong></p>
+      <a class="btn" href="https://wa.me/233504598324?text=Hello%20A%20Day%20Out%2C%20I%20would%20like%20to%20make%20a%20booking%20enquiry." target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </aside>
+  </div>
+</section>
+
+<section id="policies">
+  <div class="policy">
+    <div class="eyebrow">Transparency and trust</div>
+    <h2>Privacy & booking policies</h2>
+    <p class="section-intro">Please review these policies before making an enquiry. They should be checked and finalized for your actual business practices before the website is published.</p>
+
+    <details>
+      <summary>1. Privacy notice</summary>
+      <p><strong>Information collected:</strong> A Day Out may collect your name, contact number, requested service, preferred date and time, venue or city, group size and booking preferences. Please do not send passwords, financial account credentials, identity documents or other unnecessary sensitive information through the enquiry form.</p>
+      <p><strong>How information is used:</strong> Information is used to answer enquiries, discuss availability, arrange bookings, communicate changes, manage safety and maintain necessary business records.</p>
+      <p><strong>Sharing:</strong> We do not sell personal information. Information is not shared with other people for publicity without permission, except where sharing is necessary to arrange a booking with your agreement or is required by law.</p>
+      <p><strong>WhatsApp:</strong> If you continue to WhatsApp, your message is handled by WhatsApp/Meta and is subject to their own terms and privacy practices. Avoid sharing information that is not necessary for your booking.</p>
+      <p><strong>Retention and security:</strong> Booking information should be accessible only to people who need it, protected against unauthorized access and deleted or anonymised when no longer reasonably necessary, subject to legal recordkeeping requirements. The business should set a specific retention period before publication.</p>
+      <p><strong>Your choices:</strong> You may contact the business to request access to or correction of your personal information and to raise a privacy concern. Rights and obligations depend on applicable law.</p>
+      <p><strong>Contact:</strong> For privacy questions, contact A Day Out through the official WhatsApp number +233 50 459 8324.</p>
+    </details>
+
+    <details>
+      <summary>2. Booking confirmation, payment and cancellations</summary>
+      <ul>
+        <li>A booking enquiry is not a confirmed reservation. Confirmation occurs only after the date, time, duration, venue, service, total price and expectations have been agreed in writing.</li>
+        <li>Any deposit, payment deadline, cancellation charge, refund arrangement, lateness policy or extra-time charge must be explained and agreed before payment or confirmation.</li>
+        <li>Transportation within Ashanti Region is included in the listed prices. Extra travel charges may apply elsewhere in Ghana and must be agreed beforehand.</li>
+        <li>International bookings are available on special request and require advance approval. Travel, accommodation where necessary, transport, service fees and additional expenses must be agreed before confirmation.</li>
+        <li>Tickets, meals, accommodation and other third-party costs are separate unless expressly included in the written agreement.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>3. Safety and meeting locations</summary>
+      <ul>
+        <li>No midnight meetings. Half-night bookings must end before midnight.</li>
+        <li>No isolated bush areas, abandoned buildings or locations considered unsafe.</li>
+        <li>The venue, start and end times, transport arrangements and activity plan must be agreed in advance.</li>
+        <li>Either party may decline a venue or end an interaction if they feel unsafe or uncomfortable.</li>
+        <li>For personal safety, consider meeting in a public venue, arranging independent transport and telling a trusted person your plans.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>4. Conduct, boundaries and consent</summary>
+      <p>All interactions must be respectful, voluntary and based on clear communication. Companionship does not imply consent to sexual activity or any unwanted physical contact. Either party may set boundaries or withdraw consent at any time. Harassment, threats, coercion, violence, unlawful activity and unwanted touching are not accepted.</p>
+      <p>Photos, audio recordings or videos must not be taken or shared without the consent of the people involved and in accordance with applicable law.</p>
+    </details>
+
+    <details>
+      <summary>5. International bookings</summary>
+      <p>Bookings outside Ghana are considered individually and are subject to advance discussion, feasibility, applicable travel and immigration requirements, and approval. The client and A Day Out must agree on service fees, travel, accommodation where necessary, local transport, dates, responsibilities and additional expenses before the booking is confirmed. No international booking is guaranteed until confirmed in writing.</p>
+    </details>
+
+    <details>
+      <summary>6. Policy updates and legal compliance</summary>
+      <p>A Day Out may update its policies when necessary. Material terms should be communicated before a booking is confirmed. Before publishing, the business owner should review these policies for compliance with Ghana's Data Protection Act, 2012 (Act 843), any applicable Data Protection Commission requirements and the laws of other countries where services are offered. This template is general information, not legal advice.</p>
+    </details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="logo">A Day Out</div>
+  <p>Good company. Memorable moments.</p>
+  <p>Bookings and enquiries: <a href="https://wa.me/233504598324" target="_blank" rel="noopener">+233 50 459 8324 on WhatsApp</a></p>
+  <p>Respectful companionship • Clear boundaries • Privacy-minded service</p>
+  <p>© <span id="year"></span> A Day Out. All rights reserved.</p>
+  <p class="small" style="color:#bfc9c0">Please confirm all prices, service arrangements and policies before making a booking.</p>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const dateField = document.getElementById('date');
+const today = new Date();
+const localToday = new Date(today.getTime() - today.getTimezoneOffset() * 60000)
+  .toISOString().split('T')[0];
+dateField.min = localToday;
+
+document.getElementById('bookingForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  if (!this.reportValidity()) return;
+
+  const get = id => document.getElementById(id).value.trim();
+  const message = [
+    'Hello A Day Out, I would like to make a booking enquiry.',
+    '',
+    'Name: ' + get('name'),
+    'Phone/WhatsApp: ' + get('phone'),
+    'Requested service: ' + get('service'),
+    'Preferred date: ' + get('date'),
+    'Location: ' + get('country'),
+    'Venue/city: ' + get('venue'),
+    'Preferred time: ' + get('time'),
+    'Group arrangement: ' + get('group'),
+    'Occasion and special requests: ' + (get('details') || 'Not specified'),
+    '',
+    'Please confirm availability, total cost, transport arrangements and booking terms. I understand this is an enquiry and not yet a confirmed booking.'
+  ].join('\n');
+
+  const whatsappURL = 'https://wa.me/233504598324?text=' + encodeURIComponent(message);
+  window.open(whatsappURL, '_blank', 'noopener,noreferrer');
+});
+</script>
+</body>
+</html>
